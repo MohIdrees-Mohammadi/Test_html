@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    background-color: rgb(247, 245, 243);
+}
+
+header {
+    padding: 10px 270px;
+    background-color: white;
+    border-bottom: 1px solid rgb(189, 189, 189);
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
+
+
+.search-bar{
+    width: 92%;
+    position: relative;
+    
+}
+
+.search-icon{
+    width: 18px;
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    fill: gray;
+}
+
+.search-bar input{
+    width: 82%;
+    height: 40px;
+    border: 1px solid rgb(230, 229, 229);
+    border-radius: 8px;
+    padding-left: 40px;
+    
+}
+
+.search-btn{
+    background-color: green;
+    border-radius: 10px;
+    padding: 14px 36px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.search-btn:hover{
+    background-color: rgba(0, 128, 0, 0.788);
+   
+}
+
+.humberger{
+    width: 30px;
+    display: none;
+   
+}
+
+
+/* main */
+
+main {
+    padding: 10px 270px;
+}
+
+
+/* Hero Section */
+
+.hero-section{
+    background: url("https://images.unsplash.com/photo-1759778276302-0e75b90aa4a4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1175");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 0;
+    border-radius: 12px;
+   
+}
+
+.hero-section h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+
+@media (max-width: 1024px) {
+  header {
+    padding: 10px 120px;
+    
+}
+}
+@media (max-width: 600px) {
+  header {
+    padding: 10px 60px;
+    
+}
+.search-btn{
+    background-color: green;
+    border-radius: 6px;
+    padding: 7px 20px;
+    font-size: 10px;
+    
+}
+.search-bar input{
+    width: 90%;
+    height: 24px;
+    border: 1px solid rgb(230, 229, 229);
+    border-radius: 4px;
+    padding-left: 25px;
+    
+}
+.search-icon{
+    width: 12px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    fill: gray;
+}
+
+.humberger{
+    display: block;
+   
+}
+.desktop-nav{
+    display: none;
+}
+
+}
+
+
